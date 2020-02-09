@@ -7,9 +7,18 @@
 //
 
 #include <iostream>
+#include <stack>
+#include <algorithm>
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    deque<int> q = {1,2,3,4,5};
+    stack<int> s1(q);
+    
+    for(auto x : s){
+        cout << x << '\n';
+    }
+    
     return 0;
 }
